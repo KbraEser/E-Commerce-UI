@@ -21,18 +21,21 @@ Modern bir e-ticaret kullanıcı arayüzü projesi. Next.js 15, React 19 ve Tail
 ## Kurulum
 
 1. Projeyi klonlayın:
+
 ```bash
 git clone <repository-url>
 cd E-Commerce-UI
 ```
 
 2. Bağımlılıkları yükleyin:
+
 ```bash
 cd client
 pnpm install
 ```
 
 3. Geliştirme sunucusunu başlatın:
+
 ```bash
 pnpm dev
 ```
@@ -68,4 +71,3 @@ pnpm lint     # ESLint kontrolü
 ## Lisans
 
 Bu proje kişisel kullanım için geliştirilmiştir.
-
