@@ -71,3 +71,4 @@ pnpm lint     # ESLint kontrolü
 ## Lisans
 
 Bu proje kişisel kullanım için geliştirilmiştir.
+
