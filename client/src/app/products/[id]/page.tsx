@@ -20,6 +20,19 @@ const product: ProductType = {
   },
 };
 
+export const generateMetadata = async ({
+  params,
+}: {
+  params: Promise<{ id: string }>;
+}) => {
+  // TODO: Get product from db
+  // TEMPORARY
+  return {
+    title: product.name,
+    describe: product.description,
+  };
+};
+
 const ProductPage = async ({
   params,
   searchParams,
